@@ -2,7 +2,7 @@ package com.srajgopalan.camel.route.jms;
 
 import org.apache.camel.builder.RouteBuilder;
 
-public class JMSReadRoute extends RouteBuilder {
+public class JmsReadRoute extends RouteBuilder {
     public void configure() throws Exception {
 
         from("activemq:queue:srQueue")

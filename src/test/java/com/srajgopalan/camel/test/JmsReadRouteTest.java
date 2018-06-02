@@ -1,16 +1,16 @@
 package com.srajgopalan.camel.test;
 
-import com.srajgopalan.camel.route.jms.JMSReadRoute;
+import com.srajgopalan.camel.route.jms.JmsReadRoute;
 import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
 
-public class JMSReadRouteTest extends CamelTestSupport {
+public class JmsReadRouteTest extends CamelTestSupport {
 
     @Override
     protected RouteBuilder createRouteBuilder(){
-        return new JMSReadRoute();
+        return new JmsReadRoute();
     }
 
     @Test

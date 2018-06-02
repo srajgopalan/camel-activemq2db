@@ -1,6 +1,6 @@
 package com.srajgopalan.camel.test;
 
-import com.srajgopalan.camel.route.jdbc.JDBCInsertRoute;
+import com.srajgopalan.camel.route.jdbc.JdbcInsertRoute;
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
@@ -13,11 +13,11 @@ import javax.sql.DataSource;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JDBCInsertRouteTest extends CamelTestSupport {
+public class JdbcInsertRouteTest extends CamelTestSupport {
 
     @Override
     protected RouteBuilder createRouteBuilder() throws Exception {
-        return new JDBCInsertRoute();
+        return new JdbcInsertRoute();
     }
 
     @Override

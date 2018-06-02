@@ -3,7 +3,7 @@ package com.srajgopalan.camel.route.jdbc;
 import com.srajgopalan.camel.process.jdbc.SimpleJDBCInsertProcessor;
 import org.apache.camel.builder.RouteBuilder;
 
-public class JDBCInsertRoute extends RouteBuilder {
+public class JdbcInsertRoute extends RouteBuilder {
     public void configure() throws Exception {
 
         from("direct:jdbcInput")
