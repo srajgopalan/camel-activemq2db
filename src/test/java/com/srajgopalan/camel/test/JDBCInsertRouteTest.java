@@ -29,9 +29,7 @@ public class JDBCInsertRouteTest extends CamelTestSupport {
         SimpleRegistry registry = new SimpleRegistry();
         registry.put("myDataSource",dataSource);
 
-        CamelContext camelContext = new DefaultCamelContext(registry);
-
-        return camelContext;
+        return new DefaultCamelContext(registry);
     }
 
 
