@@ -1,4 +1,4 @@
-# activemq2db
+# camel-activemq2db
 
 This project is a simple integration from ActiveMQ to a PostgreSQL DB using Apache Camel for integration.
 
